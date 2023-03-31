@@ -13,10 +13,10 @@
     <meta name="description" content="Personal Portfolio Template">
 
     <!-- favicon -->
-    <link rel="shortcut icon" href="/wp-content/themes/easy/html/images/favicon.png" type="image/png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/wp-content/themes/easy/html/images/apple-touch-icon-114x114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/wp-content/themes/easy/html/images/apple-touch-icon-72x72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/wp-content/themes/easy/html/images/apple-touch-icon-57x57-precomposed.png">
+    <link rel="shortcut icon" href="<?= get_stylesheet_directory_uri()?>/html/images/favicon.png" type="image/png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?= get_stylesheet_directory_uri()?>/html/images/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?= get_stylesheet_directory_uri()?>/html/images/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="<?= get_stylesheet_directory_uri()?>/html/images/apple-touch-icon-57x57-precomposed.png">
 
     <!-- fonts -->
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
@@ -24,17 +24,17 @@
     <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
 
     <!-- styles -->
-    <link rel="stylesheet" type="text/css" href="/wp-content/themes/easy/html/css/bootstrap.min.css"/>
-    <link rel="stylesheet" type="text/css" href="/wp-content/themes/easy/html/css/magnific-popup.min.css"/>
-    <link rel="stylesheet" type="text/css" href="/wp-content/themes/easy/html/css/font-awesome.min.css"/>
-    <link rel="stylesheet" type="text/css" href="/wp-content/themes/easy/html/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="<?= get_stylesheet_directory_uri()?>/html/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="<?= get_stylesheet_directory_uri()?>/html/css/magnific-popup.min.css"/>
+    <link rel="stylesheet" type="text/css" href="<?= get_stylesheet_directory_uri()?>/html/css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="<?= get_stylesheet_directory_uri()?>/html/css/style.css"/>
 
     <!-- Javascript libraries -->
-    <script type="text/javascript" src="/wp-content/themes/easy/html/js/modernizr.js"></script>
-    <script type="text/javascript" src="/wp-content/themes/easy/html/js/jquery.min.js"></script>
+    <script type="text/javascript" src="<?= get_stylesheet_directory_uri()?>/html/js/modernizr.js"></script>
+    <script type="text/javascript" src="<?= get_stylesheet_directory_uri()?>/html/js/jquery.min.js"></script>
 
     <!--[if IE]>
-    <script src="/wp-content/themes/easy/html/js/html5shiv.js"></script>
+    <script src="<?= get_stylesheet_directory_uri()?>/html/js/html5shiv.js"></script>
     <![endif]-->
 </head>
 <body>
@@ -185,21 +185,21 @@
                     <div class="portfolio-block">
                         <ul class="work-list">
                             <li><a href="project.html">
-                                    <img src="/wp-content/themes/easy/html/images/380x380.jpg" alt="">
+                                    <img src="<?= get_stylesheet_directory_uri()?>/html/images/380x380.jpg" alt="">
                                     <div class="gallery-content">
                                         <div class="project-title">Project Title</div>
                                         <div class="project-client">Client</div>
                                     </div>
                                 </a></li>
                             <li><a href="project.html">
-                                    <img src="/wp-content/themes/easy/html/images/380x380.jpg" alt="">
+                                    <img src="<?= get_stylesheet_directory_uri()?>/html/images/380x380.jpg" alt="">
                                     <div class="gallery-content">
                                         <div class="project-title">Project Title</div>
                                         <div class="project-client">Client</div>
                                     </div>
                                 </a></li>
                             <li><a href="project.html">
-                                    <img src="/wp-content/themes/easy/html/images/380x380.jpg" alt="">
+                                    <img src="<?= get_stylesheet_directory_uri()?>/html/images/380x380.jpg" alt="">
                                     <div class="gallery-content">
                                         <div class="project-title">Project Title</div>
                                         <div class="project-client">Client</div>
@@ -212,21 +212,21 @@
                     <div class="portfolio-block ">
                         <ul class="work-list">
                             <li><a href="project.html">
-                                    <img src="/wp-content/themes/easy/html/images/380x380.jpg" alt="">
+                                    <img src="<?= get_stylesheet_directory_uri()?>/html/images/380x380.jpg" alt="">
                                     <div class="gallery-content">
                                         <div class="project-title">Project Title</div>
                                         <div class="project-client">Client</div>
                                     </div>
                                 </a></li>
                             <li><a href="project.html">
-                                    <img src="/wp-content/themes/easy/html/images/380x380.jpg" alt="">
+                                    <img src="<?= get_stylesheet_directory_uri()?>/html/images/380x380.jpg" alt="">
                                     <div class="gallery-content">
                                         <div class="project-title">Project Title</div>
                                         <div class="project-client">Client</div>
                                     </div>
                                 </a></li>
                             <li><a href="project.html">
-                                    <img src="/wp-content/themes/easy/html/images/380x380.jpg" alt="">
+                                    <img src="<?= get_stylesheet_directory_uri()?>/html/images/380x380.jpg" alt="">
                                     <div class="gallery-content">
                                         <div class="project-title">Project Title</div>
                                         <div class="project-client">Client</div>
@@ -331,10 +331,10 @@
 </div>
 
 <!-- javascript -->
-<script src="/wp-content/themes/easy/html/js/plugins.js"></script>
-<script src="/wp-content/themes/easy/html/js/smooth-scroll.js"></script>
-<script src="/wp-content/themes/easy/html/js/jquery.countTo.js"></script>
-<script src="/wp-content/themes/easy/html/js/particles.min.js"></script>
-<script src="/wp-content/themes/easy/html/js/main.js"></script>
+<script src="<?= get_stylesheet_directory_uri()?>/html/js/plugins.js"></script>
+<script src="<?= get_stylesheet_directory_uri()?>/html/js/smooth-scroll.js"></script>
+<script src="<?= get_stylesheet_directory_uri()?>/html/js/jquery.countTo.js"></script>
+<script src="<?= get_stylesheet_directory_uri()?>/html/js/particles.min.js"></script>
+<script src="<?= get_stylesheet_directory_uri()?>/html/js/main.js"></script>
 </body>
 </html>

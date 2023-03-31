@@ -1,4 +1,4 @@
-<div id="header" style="background: url(/wp-content/themes/easy/html/images/1920x1080.jpg) no-repeat center; background-size: cover; background-position: center;">
+<div id="header" style="background: url(<?= get_stylesheet_directory_uri()?>/html/images/1920x1080.jpg) no-repeat center; background-size: cover; background-position: center;">
     <!-- particles -->
     <div id="particles" class="particles"></div>
 
