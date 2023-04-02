@@ -181,59 +181,7 @@
                 </div>
 
                 <div class="gallery-wrapper	col-sm-12 col-xs-12">
-                    <!-- portfolio-row-1 -->
-                    <div class="portfolio-block">
-                        <ul class="work-list">
-                            <li><a href="project.html">
-                                    <img src="<?= get_stylesheet_directory_uri()?>/html/images/380x380.jpg" alt="">
-                                    <div class="gallery-content">
-                                        <div class="project-title">Project Title</div>
-                                        <div class="project-client">Client</div>
-                                    </div>
-                                </a></li>
-                            <li><a href="project.html">
-                                    <img src="<?= get_stylesheet_directory_uri()?>/html/images/380x380.jpg" alt="">
-                                    <div class="gallery-content">
-                                        <div class="project-title">Project Title</div>
-                                        <div class="project-client">Client</div>
-                                    </div>
-                                </a></li>
-                            <li><a href="project.html">
-                                    <img src="<?= get_stylesheet_directory_uri()?>/html/images/380x380.jpg" alt="">
-                                    <div class="gallery-content">
-                                        <div class="project-title">Project Title</div>
-                                        <div class="project-client">Client</div>
-                                    </div>
-                                </a></li>
-                        </ul>
-                    </div>
-
-                    <!-- portfolio-row-2 -->
-                    <div class="portfolio-block ">
-                        <ul class="work-list">
-                            <li><a href="project.html">
-                                    <img src="<?= get_stylesheet_directory_uri()?>/html/images/380x380.jpg" alt="">
-                                    <div class="gallery-content">
-                                        <div class="project-title">Project Title</div>
-                                        <div class="project-client">Client</div>
-                                    </div>
-                                </a></li>
-                            <li><a href="project.html">
-                                    <img src="<?= get_stylesheet_directory_uri()?>/html/images/380x380.jpg" alt="">
-                                    <div class="gallery-content">
-                                        <div class="project-title">Project Title</div>
-                                        <div class="project-client">Client</div>
-                                    </div>
-                                </a></li>
-                            <li><a href="project.html">
-                                    <img src="<?= get_stylesheet_directory_uri()?>/html/images/380x380.jpg" alt="">
-                                    <div class="gallery-content">
-                                        <div class="project-title">Project Title</div>
-                                        <div class="project-client">Client</div>
-                                    </div>
-                                </a></li>
-                        </ul>
-                    </div>
+                    <?php get_template_part( 'template-parts/post/portfolio-row' ); ?>
                 </div>
 
                 <div class="col-sm-12">
