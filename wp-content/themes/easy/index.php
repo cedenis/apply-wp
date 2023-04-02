@@ -125,11 +125,6 @@
     <?php get_footer(); ?>
 </div>
 
-<!-- javascript -->
-<script src="<?= get_stylesheet_directory_uri()?>/html/js/plugins.js"></script>
-<script src="<?= get_stylesheet_directory_uri()?>/html/js/smooth-scroll.js"></script>
-<script src="<?= get_stylesheet_directory_uri()?>/html/js/jquery.countTo.js"></script>
-<script src="<?= get_stylesheet_directory_uri()?>/html/js/particles.min.js"></script>
-<script src="<?= get_stylesheet_directory_uri()?>/html/js/main.js"></script>
+<?php wp_footer(); ?>
 </body>
 </html>
