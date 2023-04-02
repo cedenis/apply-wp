@@ -6,18 +6,18 @@ $args = [
     'posts_per_page' => 6,
 ];
 // Récupère les 6 dernières news
-$recent_posts = new WP_Query( $args );
+$recentPosts = new WP_Query( $args );
 $nbColumnMax = 3;
 ?>
 
-<?php if ( $recent_posts->have_posts() ) : ?>
-    <?php while ( $recent_posts->have_posts() ) : ?>
-    <!-- portfolio-row-<?= (int) ($recent_posts->current_post/$nbColumnMax + 1) + 1 ?> -->
+<?php if ( $recentPosts->have_posts() ) : ?>
+    <?php while ( $recentPosts->have_posts() ) : ?>
+    <!-- portfolio-row-<?= apply_filters('get_portfolio_row_number', $recentPosts, $nbColumnMax) ?> -->
     <div class="portfolio-block">
         <ul class="work-list">
-            <?php $nbColumn = $recent_posts->post_count - $recent_posts->current_post - 1 ?>
-            <?php for($i=0; $i<min($nbColumnMax, $nbColumn) ; $i++): ?>
-                <?php $recent_posts->the_post(); ?>
+            <?php $nbColumn = apply_filters('get_number_column_for_current_post', $recentPosts, $nbColumnMax) ?>
+            <?php for($i=0; $i<$nbColumn ; $i++): ?>
+                <?php $recentPosts->the_post(); ?>
                 <?php get_template_part( 'template-parts/post/portfolio-row-item' ); ?>
             <?php endfor; ?>
         </ul>
