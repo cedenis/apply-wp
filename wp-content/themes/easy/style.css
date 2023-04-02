@@ -323,7 +323,7 @@ p {
   width: 60px;
   margin-left: -30px;
   height: 30px;
-  background: url(../images/arrow.png) no-repeat center bottom;
+  background: url(./html/images/arrow.png) no-repeat center bottom;
   background-size: 30px 30px;
   display: block;
   position: absolute;
